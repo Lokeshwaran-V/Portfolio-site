@@ -1,0 +1,30 @@
+.footer {
+  padding: 2rem 0;
+  border-top: 1px solid var(--glass-border);
+  background: var(--bg-secondary);
+  margin-top: 4rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright, .credit {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.credit {
+  font-family: var(--font-heading);
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
