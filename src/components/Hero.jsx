@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import Profile from "../assets/profile.jpg"
 
 const Hero = () => {
   return (
@@ -20,9 +21,11 @@ const Hero = () => {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-glow"></div>
-          {/* Using a placeholder since we don't have the local file path, user can replace it */}
           <div className="hero-image">
-             <div className="avatar-placeholder">LV</div>
+            <img src={Profile} alt="LV" />
+             <div className="avatar-placeholder">
+              
+             </div>
           </div>
         </div>
       </div>

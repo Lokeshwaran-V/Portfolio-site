@@ -87,6 +87,13 @@
   z-index: 1;
 }
 
+.hero-image img {
+  /* position: relative; */
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+
+}
 .avatar-placeholder {
   font-size: 5rem;
   font-weight: 700;
